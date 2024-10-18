@@ -1,0 +1,43 @@
+/* Navbar.css */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #343a40;
+  color: #fff;
+  padding: 0.5rem 1rem;
+}
+
+.navbar_left .burger-btn {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.navbar_middle{
+  margin-left: 20%  ;
+}
+.navbar_middle h3 {
+  text-align: center;
+ 
+}
+
+.navbar_right {
+  display: flex;
+  align-items: center;
+  margin-right: 15%;
+}
+
+.nav-item {
+  margin-right: 15px;
+}
+
+.account-icon {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  cursor: pointer;
+  color: white;
+}

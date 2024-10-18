@@ -1,0 +1,90 @@
+/* AddTask.css */
+
+/* Container styling */
+.add-task {
+  padding: 20px;
+  width: 25%;
+  margin: 5px auto; /* Center the form horizontally */
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Form layout */
+.add-task form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Input and textarea styling */
+.add-task input,
+.add-task textarea {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  background-color: #fff;
+  color: #333;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+/* Hover and focus effects for inputs and textareas */
+.add-task input:focus,
+.add-task textarea:focus {
+  border-color: #007bff;
+}
+
+/* Dropdown (select) styling */
+.add-task select {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  background-color: #fff;
+  color: #333;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+/* Hover and focus effects for dropdowns */
+.add-task select:hover,
+.add-task select:focus {
+  border-color: #007bff;
+}
+
+/* Option styling */
+.add-task select option {
+  padding: 10px;
+  background-color: #fff;
+  color: #333;
+}
+
+/* Submit button styling */
+.add-task button {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the submit button */
+.add-task button:hover {
+  background-color: #45a049;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .add-task {
+    width: 90%;
+    margin: 20px auto;
+  }
+}

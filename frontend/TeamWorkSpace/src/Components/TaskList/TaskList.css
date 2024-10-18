@@ -1,0 +1,21 @@
+.task-list {
+    padding: 20px;
+  }
+  
+  .task-item {
+    background-color: #f9f9f9;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .task-item h3 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  .task-item p {
+    margin: 5px 0 0;
+  }
+  
